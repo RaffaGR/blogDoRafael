@@ -1,0 +1,127 @@
+Foi passado uma lista de exercicios e tambem foi pedido para fazer uma pagina estilo curriculo onde ela sera colocada dentro do blog
+
+
+LISTA DE EXERCICIOS 01 - 03/04/2025
+
+1- Quais as tags principais da estrutura HTML5? Explique cada uma.
+As principais tags da estrutura HTML5 são:
+
+<!DOCTYPE html>: Declara o tipo de documento e a versão do HTML5.
+
+<html>: Representa o início do documento HTML e envolve todo o conteúdo da página.
+
+<head>: Contém metadados sobre o documento, como o título da página, logotipo, links para arquivos de estilos CSS e scripts JavaScript.
+
+<meta>: Fornece informações sobre o documento, como o conjunto de caracteres que os editor irão transcrever e interpretar ou configurações de visualização para celular.
+
+<body>: Contém o conteúdo visível da página, como texto, imagens, links e outros elementos interativos e lá tera varias outras tags como header, section, footer, article, nav, h1, img, que irão organizar o conteudo.
+-----------
+2- Cite e explique pelo menos seis tags removidas ou obsoletas na linguagem HTML5.
+Algumas tags removidas ou obsoletas no HTML5 são:
+
+<center>: Usada para centralizar o conteúdo. A centralização agora é feita com CSS.
+
+<font>: Usada para definir a fonte, cor e tamanho do texto. Foi substituída por CSS.
+
+<big>: Usada para aumentar o tamanho do texto. Substituída pelo uso de CSS.
+
+<blink>: Usada para fazer o texto piscar. Foi descontinuada por questões de acessibilidade e usabilidade.
+
+<marquee>: Usada para criar textos e imagens rolando. Foi removida devido à falta de controle e acessibilidade.
+
+<strike>: Usada para marcar texto riscado. A recomendação é usar o CSS text-decoration: line-through.
+-----------
+3- Sobre a estrutura básica do HTML5, analise os itens abaixo:
+I. head: primeira linha de código do documento antes da tag HTML. (errado)
+II. doctype: define uma nova seção genérica no documento. (não, declara o tipo de documento se sera html5 ou outras versõs)
+III. body: define o corpo (conteúdo) da página. (exatameente)
+
+Está CORRETO apenas:
+
+c) O item III.
+
+Explicação:
+
+O DOCTYPE deve vir antes da tag html, e não é uma seção genérica, mas sim uma declaração do tipo de documento.
+
+O head contém metadados, não é a primeira linha antes da tag html, tag html vira na frente.
+-----------------
+4- Exemplifique a utilização de citação de um livro e definição de um termo técnico em um parágrafo.
+Exemplificação: Em uum livro "Engenharia de Software, Sommerville (2011)" destaca que a aplicação de práticas sistemáticas é fundamental para manter a qualidade do código.
+Definição do termo: O termo "refatoração" é definido como o processo de reestruturar o código-fonte para melhorar sua legibilidade e eficiência, sem modificar seu comportamento externo.
+-----------------
+5- Projeto de Blog para o cliente Rafael(eu):
+
+Foi feito e esta na pasta (não sei se pode copiar e colocar aqui, n quero deixar muito grande, talvez eu transforme esse txt em doc para por um print)
+-----------------
+6- Desenvolva a página curriculo.html:
+
+Foi feito e esta na pasta (não sei se pode copiar e colocar aqui, n quero deixar muito grande, talvez eu transforme esse txt em doc para por um print)
+------------------
+7- Identificação das tags, atributos e valores:
+a) <img src="logo.jpg" alt="Logomarca do blog">
+
+Tag: <img>
+
+Atributos: src, alt
+
+Valores: "logo.jpg", "Logomarca do blog"
+
+b) <meta charset="UTF-8">
+
+Tag: <meta>
+
+Atributo: charset
+
+Valor: "UTF-8"
+
+c) <hr width="100%">
+
+Tag: <hr>
+
+Atributo: width
+
+Valor: "100%"
+
+d) <link rel="short icon" href="imagens/logoFavicon.png">
+
+Tag: <link>
+
+Atributos: rel, href
+
+Valores: "short icon", "imagens/logoFavicon.png"
+
+e) <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+Tag: <meta>
+
+Atributos: name, content
+
+Valores: "viewport", "width=device-width, initial-scale=1.0"
+-------------
+8- Quais tags de formatação de texto foram desaconselhadas no HTML5?
+As tags desaconselhadas são:
+
+<b>: Usada para texto em negrito, sem significado semântico. A alternativa recomendada é o uso de <strong>, que tem significado semântico, indicando ênfase.
+
+<i>: Usada para texto em itálico, sem significado semântico. A alternativa recomendada é o uso de <em>, que indica ênfase.
+--------------
+9- Qual a importância das tags semânticas no HTML5 e como elas contribuem para
+uma web mais acessível e otimizada para mecanismos de busca (SEO - Otimização
+para Motores de Busca)?
+
+Importância: As tags semânticas no HTML5, como <article>, <section>, <header>, <footer>, entre outras, são importantes porque, melhoram a estrutura do código, tornando-o mais compreensível tanto para desenvolvedores quanto para motores de busca, ou seja, pq organiza e pessoas precisam refatorar codigos para que essa regra seja aplicada.
+
+Acessibilidade: Ajudam atraves da tecnologias como bot ou motores de busca (SEO) ou como software para pessoas com deficiecias, torna capaz de identificar e navegar pelas seções da página de maneira mais clara(entender melhor) e util.
+---------------
+10- Quais atributos podem ser utilizados em conjunto com a tag <img>, além do
+atributo src, para melhorar a acessibilidade, a responsividade e o desempenho de
+uma página web? Explique o papel de cada um desses atributos.
+
+Além de src, temos como pricipal o alt, title, width, height e varios outro.
+
+alt: Fornece uma descrição alternativa da imagem, essencial para acessibilidade e SEO.
+
+title: Exibe um texto quando o usuário passa o mouse sobre a imagem.
+
+width e height: Especificam as dimensões da imagem, ajudando na responsividade e no carregamento da página.

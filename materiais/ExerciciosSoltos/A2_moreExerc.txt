@@ -1,0 +1,23 @@
+Avaliação diagnóstica.
+
+Uma apresentação explicando isso e exercicios de avaliação para casa.
+
+➢ giorjety@ifsp.edu.br
+Avaliação diag
+Nas primeiras aulas da disciplina de Desenvolvimento Web, foram apresentados os conteúdos que serão explorados ao longo do semestre. Esses tópicos abrangem conceitos básicos de programação e estruturas utilizadas no desenvolvimento de sites.
+
+A seguir, descreva brevemente os itens que foram abordados nas primeiras aulas e os que conhece sobre desenvolvimento web:
+
+1- O que envolve a criação de sites e aplicações que funcionam na internet?
+R: Diversas tecnologias, desde maquinas fisicas como desktops e celulares, até softwares, como sistemas operacionais, tecnologias de linguagens de programação, navegadores e a propria internet, sendo o iniciado. << new
+HTML, CSS, !Javascript!, sendo que uma serve para estruturar outra para criar o designer e a outra para configurar as lógicas, onde elas podem serem refinadas por meio de frameworks como react, next, typescript, tailwind, etc... assim controem o front end, back end e ainda podem ser expandidas com apis para aproveitarem do banco de dados e podem ir muito além, como criar sistemas com aplicações ou até aproveitar de softwares ou serem utilizadas por softwares...
+
+2- Quais as tecnologias fundamentais da web?
+R: HTML, CSS e Javascript... new <<<
+Seria as máquinas onde ficam endereçados (que utilizam DNS, HTTP, IPV4?[esqueci] meios de se comunicarem), a posição que revelam a existencia da mesma para que exista uma conexão e comunicação, podendo ser os servidores e os clientes, assim como as redes e rotas, como www.
+
+
+3- Diferencie Front-End e Back-End.
+R: Front-end seria a parte que serve como interface ou a aparência que o site vai ter e o design que terá, back-end seria a parte que processa os dados, conecta com api, como se fosse a parte lógica mais profunda que fica por trás dos planos
+
+(Uma resposta pode conter outra sim)

@@ -1,0 +1,16 @@
+Visão Geral de Programação para Web.
+
+Uma apresentação explicando isso e exercicios para casa.
+
+História da Web
+1. O que é a tecnologia blockchain?
+R: Uma rede de dados conectado e sicronizados (compartilhados) para registrar transações e informações com segurança e garantia. Proprio nome ja informa, block = bloqueio, chain = cadeia, então blockchain = bloqueio em rede, 
+
+2. Cite exemplos de aplicações nas Web 2.0 e Web 3.0, e
+explique como elas utilizam a tecnologia.
+R: Web 2.0 são aplicações q centraliza (1 entidade controla) os dados mas permite edição e compartilhamento como o facebook. web 3.0 torna tudo menos centralizado (varias entidades, descetralização), Decentraland[tive q pesquisar o exemplo (robox e alguns bancos ja possuem uma integração de tecnologias avançadas como blockchain, IA e a liberdade do controle individual que torna uma parte delas web 3.0, mas n são consideradas)]
+
+3. A Web 3.0 está plenamente desenvolvida e adotada?
+Quais são os principais desafios tecnológicos e sociais
+que impedem sua implementação em larga escala?
+R: Não, segurança de informaçoes confidenciais ou pessoais é um dos principais motivos, alem de ter grandes obstaculos como regumalamentação e o expansão com baixa pessoas q não estão focadas em se capacitarem para isso.
