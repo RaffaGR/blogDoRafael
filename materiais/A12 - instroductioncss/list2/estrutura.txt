@@ -1,0 +1,13 @@
+blogFulano/
+├── arquivos/
+│   └── pdfs/
+│       └── relatorio.pdf   <-- Arquivo placeholder para o download
+├── imagens/
+│   ├── 2024/           <-- Pasta para imagem do item 
+│   │   └── imagem.jpg  <-- Imagem placeholder
+│   ├── ferias/         <-- Pasta mencionada no diagrama (placeholder)
+│   └── logo.png        <-- Logo placeholder
+├── paginas/
+│   ├── cadastro.html   <-- Página de cadastro
+│   └── index.html      <-- Página principal do blog
+└── favicon.ico         <-- Favicon placeholder (no root ou na pasta principal)

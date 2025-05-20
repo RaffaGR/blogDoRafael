@@ -1,0 +1,60 @@
+:hover
+:visited
+:active
+:link
+
+Trocar o V pelo C - 
+
+quais tags para audio?
+quais tags para videos?
+quais tags para inserir links?
+quais tags para inserir um conjunto de imagem?
+figure
+
+descrição de figura?
+
+
+so img?
+img
+
+cabeçalho
+header
+
+rodape? 
+footer
+
+informações correladas - ta mais para links?
+aside
+
+tag midia de resposividade para android...
+
+como é representado um site responsivo no html5 e css3?
+é necessaria inserir no header 1 linha com a tag (tipo isso)
+
+Como desenvolver um website responsivel em html e css ?
+explicar como faz isso no html e no css
+
+o html5 e css3 são as linguagem mais recentes 
+
+oq a linguagem css oferece?
+posicionamento, layout, designer e flexibilidade na estrutura
+
+w3css ajuda o css com oq?
+costumizar apresentação visual
+
+.class aplicar formatação em um conjunto de tags...
+
+flexbox ajuda na?
+distribuição do espaço e alinhamento dos elementos
+
+grid transforma em coluna e flex em linha
+
+html
+meta charset
+tabela, ul, li, etc... elementos interessantes
+manda no gpt todos os pdf do começo ao fim das aulas para ele analisar e criar uma lista de resposta para todo o conteúdo apresentado semelhante a nossa resposta, e ignorando as q eu já fiz q estaria no docx da aula 14 do teste
+
+extra...
+por fim, refine a pergunta que vc poderá fazer para ela de brincadeira, valendo 1 ponto para mim se ela errar e se ela acertar minha nota continua a mesma (se pa ela vai acerta) n pode pesquisar pq é lista de 4 itens de respostas, mas vc deve pesquisar antes as 6 formas de importar, ou seja, a própria pergunta q vou fazer, ai vc pergunta qual a 5 forma, que seria a de @import pelo próprio css importar o css dentro do css...
+
+desculpa seria: professora, eu so queria tirar um sorriso de vc enquanto corrige as provas, para vc n ficar seria de mais na correção e se descontrair um pouco...

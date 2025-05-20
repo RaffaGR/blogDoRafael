@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+main {
+    height: 100vh;
+    width: 100vw;
+}
+
+figure {
+    /* float: inline-start; */
+    float: left;
+    width: 20%;
+    padding: 0 20px;
+    margin: 4px;
+    margin-right: 0;
+    border: double 2px greenyellow;
+    border-radius: 7px;
+    height: 320px;
+    /* display: inline-block; widith + heigth obrigatorios */
+}
+
+figure img {
+    padding: 5px;
+    border-radius: 50%;
+    height: 100px;
+}
+
+figure figcaption {
+    padding: 5px;
+}
+
+section {
+    /* float: inline-end; */
+    float: right;
+    width: 70%;
+    margin: 4px;
+    margin-left: 0;
+    padding: 0 20px;
+    border: double 2px salmon;
+    border-radius: 7px;
+    height: 320px;
+    /* display: inline-block; widith + heigth obrigatorios */
+}
+
+section article {
+    padding: 40px;
+}
+
+section article:last-child {
+    padding-bottom: 150px;
+}
+
+@media (max-width: 999px) {
+    main {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    figure,
+    section {
+        width: 90%;
+        margin: 5px 0px 5px 10px;
+        height: auto;
+    }
+
+    section article:last-child {
+        padding-bottom: 40px;
+    }
+}

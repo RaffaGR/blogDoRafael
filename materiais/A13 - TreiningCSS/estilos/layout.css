@@ -1,0 +1,91 @@
+/* Estilo para configurar o logo */
+#logo{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+/* Estilo para formatar o cabeçalho da pagina */
+header {
+    background-color: #0d0c14;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    border-radius: 8px;
+    display: flex;
+    position: fixed;
+    top: 0;
+    align-items: center;
+    justify-content: start;
+    width: 100%;
+    z-index: 10;
+}
+figure{
+    width: 100px;
+}
+header h1 {
+    position: relative;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+/* Estilo Pra lá Barrinha dy Navigatior*/
+nav{
+    background-color: #0d0c14;
+    color: #fff;
+    text-align: center;
+    padding: 15px;
+    width: 100%;
+    position: relative;
+    display: block;
+    clear: both;
+    margin-top: 110px;
+    z-index: 1000;
+}
+nav ul{
+    position: relative;
+    display: inline;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: inline;
+}
+nav ul li{
+    position: relative;
+    display: inline;
+    margin-right: 20px;
+    padding: 10px;
+}
+nav ul li a{
+    color: #fff;
+    text-decoration: none;
+}
+nav ul li a:visited{
+    color: red;
+
+}
+main {
+    padding: 20px;
+    text-align: center;
+    margin: 0;
+}
+/* Rodape */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    margin: 0;
+}
+
+@media(max-width:760px) {
+    nav ul li {
+        display: inline;
+        margin: 10px 0;
+        padding: 10px;
+    }
+}

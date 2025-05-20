@@ -1,0 +1,79 @@
+<!DOCTYPE html><!--Comando que define o tipo da linguagem-->
+<html lang="pt-br"><!--Primeira tag que inicia uma página html-->
+<head><!--Cabeçalho da página-->
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title | Languages</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+    <link rel="short icon" href="../images/logoFavicon.ico">
+</head>
+<body><!--Corpo da página-->
+    <header>
+        <figure>
+            <img src="../images/logoIFSPBoituva.png" alt="Logo do Instituto Federal de Boituva" width="400px" height="200px">
+            <figcaption>Logo of the IFSP campus in Boituva</figcaption>
+        </figure>
+        <h1>Let's go speak English in Federal Institute of Boituva</h1>
+        <hr width="100%">
+    </header>
+    <nav>
+        <ul>
+            <li><a href="../index.html">Home page</a></li>
+            <li><a href="https://btv.ifsp.edu.br/index.php/curso-superior-de-tecnologia-em-analise-e-desenvolvimento-de-sistemas" target="_blank">Higher education</a></li>
+            <li><a href="">Degree in pedagogy</a></li>
+        </ul>
+    </nav>
+    <hr width="100%">
+    <h2>List of tasks</h2>
+    <ol> <!-- Lista ordenada por numeros -->
+        <li> To study: 
+            <ol type="a">
+                <li>HTML5</li>
+                <li>CSS3</li>
+                <li>JavaScript</li>
+            </ol>
+        </li>
+        <li>To practice
+            <ol type="i">
+                <li>as</li>
+                <li>bs</li>
+            </ol>
+        </li>
+    </ol>
+    <br>
+    <!-- <h2>Subject teacher</h2> -->
+    <h2>Teacher of discipline</h2>
+    <table border="2px">
+        <thead bgcolor="orange">
+            <tr>
+                <th>Name</th>
+                <th>Age</th>
+                <th>City</th>
+                <th rowspan="4">space</th>
+            </tr>
+        </thead>
+        <!-- uma outra parte da tabela... tipo o corpo então o rowspan não considera -->
+        <tbody>
+            <tr>
+                <td rowspan="2">Rafael</td>
+                <td>43 age</td>
+                <td>Boituva</td>
+            </tr>
+            <tr>
+                <td>44 years</td>
+                <td>Sorocaba</td>
+            </tr>
+            <tr>
+                <td colspan="2">In July the teacher will have</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td>Existencily</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>

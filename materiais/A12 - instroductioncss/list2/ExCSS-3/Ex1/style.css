@@ -1,0 +1,96 @@
+/* d) Itens utilizando CSS: Corpo da página */
+body {
+    background-color: #ddd;
+    /* Fundo cinza */
+    font-family: 'Arial Narrow', Arial, sans-serif;
+    /* Fonte 'Arial Narrow', com fallbacks */
+    color: #444;
+    /* Cor do texto */
+    line-height: 1.5;
+    /* Espaçamento entre linhas de 1.5 */
+    margin: 0;
+    /* Remove margem padrão do body */
+    padding: 20px;
+    /* Adiciona um padding geral para o conteúdo não colar nas bordas */
+}
+
+/* Estilo para o título principal h1 (opcional, para centralizar ou dar destaque) */
+h1 {
+    color: rgb(182, 106, 0)
+}
+
+/* Estilo para o contêiner principal para centralizar e limitar largura (opcional, mas comum) */
+main {
+    max-width: 600px;
+    /* Largura máxima */
+    margin: 20px auto;
+    /* Centraliza o bloco na página */
+    background-color: #fff;
+    /* Fundo branco para o conteúdo principal, destacando do fundo cinza do body */
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    /* Sombra suave */
+}
+
+/* b) Estilo para as seções (opcional, para adicionar margem entre elas) */
+section {
+    margin-bottom: 30px;
+    /* Espaço entre as seções */
+    padding-bottom: 15px;
+    /* Um pequeno padding na parte inferior da seção */
+    border-bottom: 1px solid #eee;
+    /* Linha divisória suave entre seções */
+}
+
+/* Remove a borda da última seção */
+section:last-child {
+    border-bottom: none;
+    margin-bottom: 0;
+}
+
+
+/* d) Itens utilizando CSS: Cabeçalho das seções */
+/* c) Aplicado ao <header> dentro de <section> */
+section header h2 {
+    /* Seleciona o h2 dentro do header que está dentro de uma section */
+    font-size: 30px;
+    /* Tamanho da fonte */
+    font-weight: bold;
+    /* Negrito */
+    color: rgb(182, 106, 0);
+    /* Cor laranja/marrom */
+    line-height: 2.5;
+    /* Espaçamento entre linhas de 2.5 */
+    margin-top: 0;
+    /* Remove margem superior padrão do h2 */
+    margin-bottom: 10px;
+    /* Adiciona um pouco de espaço abaixo do cabeçalho */
+}
+
+/* Estilo para listas ul e li dentro das seções (opcional) */
+section ul {
+    list-style-type: disc;
+    /* Marcadores de lista padrão */
+    margin-left: 20px;
+}
+
+section ul ul {
+    /* Listas aninhadas */
+    list-style-type: circle;
+    /* Marcadores circulares para sub-listas */
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+section li {
+    margin-bottom: 5px;
+}
+
+
+/* Estilo para o rodapé (opcional) */
+footer {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 0.9em;
+    color: #777;
+}

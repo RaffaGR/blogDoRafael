@@ -1,0 +1,127 @@
+/*
+  Arquivo CSS para estilizar o Blog do Rafael
+  Este CSS é aplicado ao arquivo index.html e outros, conforme necessário,
+  sem modificar a estrutura HTML original.
+*/
+
+/* Estilos gerais para o corpo da página */
+body {
+    font-family: Arial, sans-serif; /* Define a fonte padrão */
+    margin: 0; /* Remove a margem padrão do corpo */
+    padding: 0; /* Remove o padding padrão do corpo */
+    background-color: #f4f4f4; /* Cor de fundo clara para a página */
+    color: #333; /* Cor do texto padrão */
+    line-height: 1.6; /* Espaçamento entre linhas para melhor leitura */
+}
+
+/* Estilos para o cabeçalho */
+header {
+    background-color: #333; /* Cor de fundo escura */
+    color: #fff; /* Cor do texto clara */
+    padding: 20px 0; /* Padding superior e inferior, sem padding lateral */
+    text-align: center; /* Centraliza o conteúdo do cabeçalho */
+    margin-bottom: 20px; /* Espaço abaixo do cabeçalho */
+}
+
+header img {
+    /* Estilos para a imagem da logo dentro do cabeçalho */
+    max-width: 100%; /* Garante que a imagem não exceda a largura do contêiner */
+    height: auto; /* Mantém a proporção da imagem */
+    display: block; /* Faz a imagem se comportar como um bloco para centralizar */
+    margin: 0 auto 10px auto; /* Centraliza a imagem e adiciona margem inferior */
+}
+
+header h1 {
+    /* Estilos para o título principal dentro do cabeçalho */
+    margin: 0; /* Remove a margem padrão do h1 */
+    font-size: 2.5em; /* Tamanho da fonte maior */
+}
+
+/* Estilos para a navegação */
+nav {
+    background-color: #555; /* Cor de fundo ligeiramente mais clara que o header */
+    color: #fff; /* Cor do texto clara */
+    padding: 10px 0; /* Padding superior e inferior */
+    text-align: center; /* Centraliza os itens de navegação */
+    margin-bottom: 20px; /* Espaço abaixo da navegação */
+}
+
+nav ul {
+    /* Estilos para a lista não ordenada dentro da navegação */
+    list-style: none; /* Remove os marcadores de lista */
+    padding: 0; /* Remove o padding padrão da lista */
+    margin: 0; /* Remove a margem padrão da lista */
+}
+
+nav ul li {
+    /* Estilos para cada item da lista na navegação */
+    display: inline; /* Faz com que os itens fiquem na mesma linha */
+    margin: 0 15px; /* Adiciona espaço entre os itens */
+}
+
+nav ul li a {
+    /* Estilos para os links dentro dos itens da lista */
+    color: #fff; /* Cor do link clara */
+    text-decoration: none; /* Remove o sublinhado dos links */
+    font-weight: bold; /* Deixa o texto do link em negrito */
+    transition: color 0.3s ease; /* Adiciona uma transição suave na mudança de cor */
+}
+
+nav ul li a:hover {
+    /* Estilos para os links quando o mouse passa por cima */
+    color: #ddd; /* Muda a cor do link para um tom mais claro ao passar o mouse */
+}
+
+/* Estilos para o conteúdo principal */
+main {
+    max-width: 800px; /* Define a largura máxima do conteúdo principal */
+    margin: 20px auto; /* Centraliza o bloco principal e adiciona margem superior/inferior */
+    padding: 20px; /* Adiciona padding interno */
+    background-color: #fff; /* Fundo branco para o conteúdo */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Adiciona uma leve sombra */
+    border-radius: 8px; /* Arredonda as bordas */
+}
+
+main h2 {
+    /* Estilos para o título das postagens recentes */
+    color: #333; /* Cor do título */
+    border-bottom: 2px solid #eee; /* Adiciona uma linha abaixo do título */
+    padding-bottom: 10px; /* Espaço entre o título e a linha */
+    margin-bottom: 15px; /* Espaço abaixo do título */
+}
+
+main ol {
+    /* Estilos para a lista ordenada de postagens */
+    padding-left: 20px; /* Adiciona padding à esquerda para os marcadores */
+}
+
+main ol li {
+    /* Estilos para cada item da lista de postagens */
+    margin-bottom: 10px; /* Espaço entre os itens da lista */
+}
+
+main ol li a {
+    /* Estilos para os links dentro dos itens da lista de postagens */
+    color: #0066cc; /* Cor azul padrão para links */
+    text-decoration: none; /* Remove o sublinhado */
+}
+
+main ol li a:hover {
+    /* Estilos para links de postagem ao passar o mouse */
+    text-decoration: underline; /* Adiciona sublinhado ao passar o mouse */
+}
+
+/* Estilos para o rodapé */
+footer {
+    background-color: #333; /* Cor de fundo escura */
+    color: #fff; /* Cor do texto clara */
+    text-align: center; /* Centraliza o texto */
+    padding: 15px 0; /* Padding superior e inferior */
+    margin-top: 20px; /* Espaço acima do rodapé */
+}
+
+footer p {
+    /* Estilos para o parágrafo dentro do rodapé */
+    margin: 0; /* Remove a margem padrão do parágrafo */
+    font-size: 0.9em; /* Tamanho da fonte um pouco menor */
+}
